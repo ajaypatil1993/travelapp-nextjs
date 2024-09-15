@@ -5,9 +5,9 @@ GlobTrek is a modern travel website featuring a fully responsive design and a st
 ## Screenshots
 
 ![Screenshot 1](/public/Screeshots/Screenshot1.png)
-![Screenshot 2](/public/Screenshots/Screenshot2.png)
-![Screenshot 3](/public/Screenshots/Screenshot3.png)
-Screenshot 3
+![Screenshot2](https://github.com/user-attachments/assets/55c8bdfb-819c-44ec-aca0-9f2fe5ba4be7)
+![Screenshot3](https://github.com/user-attachments/assets/4e2045e2-9981-4e79-b73d-8d20cbebfe5e)
+ 
 ## Features ✨
 
 - **Responsive Design**: Optimized for all screen sizes and devices.
