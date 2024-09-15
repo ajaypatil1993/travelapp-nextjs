@@ -1,36 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GlobTrek 🌍✈️
 
-## Getting Started
+GlobTrek is a modern travel website featuring a fully responsive design and a stunning UI/UX experience. Built with Next.js, React.js, Tailwind CSS, and TypeScript, it offers smooth animations and a dynamic layout, ensuring a seamless user experience on any device.
 
-First, run the development server:
+## Screenshots
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![Screenshot 1](/public/Screeshots/Screenshot1.png)
+![Screenshot 2](/public/Screenshots/Screenshot2.png)
+![Screenshot 3](/public/Screenshots/Screenshot3.png)
+Screenshot 3
+## Features ✨
+
+- **Responsive Design**: Optimized for all screen sizes and devices.
+- **Modern UI/UX**: Clean, intuitive interface for easy navigation.
+- **Dynamic Components**: Smooth animations and effects.
+- **Next.js**: Server-side rendering for enhanced performance.
+- **TypeScript**: Strongly typed code for improved maintainability.
+- **User-Friendly Interface**: Simplified navigation and booking process.
+
+## Tech Stack 🛠️
+
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white) 
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=white) 
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) 
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) 
+
+## Project Layout 🗂️
+
+Here's the general layout of the project:
+
+```
+GlobTrek/
+│
+├── app/
+│   ├── global.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── Button.tsx
+│   ├── Capm.tsx
+│   ├── Features.tsx
+│   ├── Footer.tsx
+│   ├── GetApp.tsx
+│   ├── Guide.tsx
+│   ├── Hero.tsx
+│   └── Navbar.tsx
+│
+├── constants/
+│   └── index.ts
+│
+├── public/
+│   ├── images/
+│   └── Screenshots/
+│
+├── .gitignore
+├── next.config.js
+├── package.json
+├── README.md
+└── tsconfig.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **`app/`**: Contains the global styles, layout, and main page component.
+- **`components/`**: Reusable UI components like buttons, navbar, hero section, and more.
+- **`constants/`**: Stores constant data and configuration files.
+- **`public/`**: Contains static assets such as images and screenshots.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Getting Started 🚀
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the Repository**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/<your-github-username>/GlobTrek.git
+   cd GlobTrek
+   ```
 
-## Deploy on Vercel
+2. **Install Dependencies**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Run the Development Server**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   Open your browser and go to `http://localhost:3000`.
+
+## Contributing 🤝
+
+1. **Fork the Repository**
+
+2. **Create a Feature Branch**
+
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+
+3. **Commit Your Changes**
+
+   ```bash
+   git add .
+   git commit -m "Add new feature"
+   ```
+
+4. **Push to the Branch**
+
+   ```bash
+   git push origin feature/new-feature
+   ```
+
+5. **Open a Pull Request** on GitHub.
+
+## Live Preview 🌐
+
+Check out the live version of the site at: [GlobTrek Live](https://globtrek.example.com)
+
+## Contact 📬
+
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/ajaypatil1993) 🔗
+- **Email**: [Send me an email](mailto:aj41093@gmail.com) 📧
+- **GitHub**: [View my GitHub](https://github.com/ajaypatil1993) 🔗
+
+## License 📝
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements 🙏
+
+- **Next.js**: Server-side rendering and static site generation.
+- **React.js**: Component-based UI development.
+- **Tailwind CSS**: Utility-first CSS for styling.
+- **TypeScript**: Enhanced code quality and maintainability.
