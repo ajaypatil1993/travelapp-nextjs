@@ -126,7 +126,7 @@ GlobTrek/
 
 ## Live Preview 🌐
 
-Check out the live version of the site at: [GlobTrek Live](https://globtrek.example.com)
+Check out the live version of the site at: [GlobTrek Live](https://globtrek-travelapp.netlify.app/)
 
 ## Contact 📬
 
